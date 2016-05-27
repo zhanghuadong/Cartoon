@@ -6,7 +6,7 @@ package com.dongzi.cartoon.utils;
 public class UriConstant {
 
     public static final String APP_HTTP = "http://www.ishuhui.net";
-    
+
     public static final String GET_ALL_BOOK = APP_HTTP+"/ComicBooks/GetSubscribe";
     public static final String GET_NEW_BOOK = APP_HTTP+"/ComicBooks/GetLastChapterForBookIds?idJson=[1,2,3]";
     public static final String URL_CATEGORY_DATA = APP_HTTP+"/ComicBooks/GetAllBook";
