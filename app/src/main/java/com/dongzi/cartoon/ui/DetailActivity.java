@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.dongzi.cartoon.R;
 
-public class DetialActivity extends BaseFrameWorkActivity {
+public class DetailActivity extends BaseFrameWorkActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
