@@ -58,7 +58,7 @@
         <activity android:name=".ui.WebActivity" />
         <activity android:name=".ui.WeekActivity" />
         <activity android:name=".ui.SearchActivity" />
-        <activity android:name=".ui.DetialActivity"></activity>
+        <activity android:name=".ui.DetialActivity"/>
     </application>
 
 </manifest>
