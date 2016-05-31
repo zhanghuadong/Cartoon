@@ -54,8 +54,11 @@
         <activity
             android:name=".ui.SettingActivity"
             android:label="@string/title_activity_setting"
-            android:parentActivityName=".ui.BaseFrameWorkActivity"></activity>
-        <activity android:name=".ui.WebActivity"></activity>
+            android:parentActivityName=".ui.BaseFrameWorkActivity" />
+        <activity android:name=".ui.WebActivity" />
+        <activity android:name=".ui.WeekActivity" />
+        <activity android:name=".ui.SearchActivity" />
+        <activity android:name=".ui.DetialActivity"></activity>
     </application>
 
 </manifest>
