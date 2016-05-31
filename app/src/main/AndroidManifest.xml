@@ -41,7 +41,6 @@
         <activity
             android:name=".ui.AboutActivity"
             android:label="@string/title_activity_about"
-            android:parentActivityName=".ui.BaseFrameWorkActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -49,16 +48,14 @@
         </activity>
         <activity
             android:name=".ui.RegisterActivity"
-            android:label="@string/title_activity_register"
-            android:parentActivityName=".ui.BaseFrameWorkActivity" />
+            android:label="@string/title_activity_register"/>
         <activity
             android:name=".ui.SettingActivity"
-            android:label="@string/title_activity_setting"
-            android:parentActivityName=".ui.BaseFrameWorkActivity" />
+            android:label="@string/title_activity_setting" />
         <activity android:name=".ui.WebActivity" />
         <activity android:name=".ui.WeekActivity" />
         <activity android:name=".ui.SearchActivity" />
-        <activity android:name=".ui.DetialActivity"/>
+        <activity android:name=".ui.DetailActivity"/>
     </application>
 
 </manifest>
