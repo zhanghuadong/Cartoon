@@ -47,6 +47,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.dongzi.cartoon.ui.BaseFrameWorkActivity" />
         </activity>
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".ui.BaseFrameWorkActivity">
+
+        </activity>
+
     </application>
 
 </manifest>
